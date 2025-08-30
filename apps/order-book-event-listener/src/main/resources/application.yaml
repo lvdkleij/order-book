@@ -1,0 +1,7 @@
+
+
+kraken:
+  book:
+    currencies:
+      - BTC/USD
+      - MATIC/GBP
