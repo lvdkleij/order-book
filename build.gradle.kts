@@ -22,4 +22,8 @@ subprojects {
             languageVersion.set(JavaLanguageVersion.of(javaLanguageVersion))
         }
     }
+
+    tasks.test {
+        useJUnitPlatform()
+    }
 }
